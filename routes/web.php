@@ -19,5 +19,7 @@ Auth::routes();
 
 Route::resource('categories','CategoryController');
 
+Route::resource('accounts','AccountController');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
